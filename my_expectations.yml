@@ -1,0 +1,8 @@
+name: my_expectations
+config_version: 1.0
+class_name: Checkpoint
+validations:
+  - batch_request:
+      datasource_name: local_files
+      data_asset_name: sample.csv
+    expectation_suite_name: my_expectations
